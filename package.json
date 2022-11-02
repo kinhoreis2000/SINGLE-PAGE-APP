@@ -1,0 +1,16 @@
+{
+  "name": "desafio-10--js---single-page-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "start": "desafio-10--js---single-page-app",
+  "scripts": {
+    "test": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "description": ""
+}

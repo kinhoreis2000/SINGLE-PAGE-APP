@@ -1,0 +1,167 @@
+* {
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  font-size: 62.5%;
+  --p-color:#E1E1E6;
+  --h1-color:#E1E1E6;
+  --btntxt-color:#FFFFFF;
+  --navtxt-color: #C4C4CC;
+  --h2-color:#E1E1E6;
+  --hover-color: #02799D;
+
+
+}
+
+
+
+body{
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./bg/mountains-universe-1.png) ;
+
+  background-position: center center;
+   
+}
+
+
+.home-page {
+text-align: center
+;}
+
+.universe-page {
+margin-left: 10rem;
+
+
+}
+.error-page {
+margin-left: 10rem;
+
+
+}
+.exploration-page {
+  margin-left: 10rem;
+  
+  
+  }
+h2{
+  margin-top: 6.3rem;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+  color: var(--h2-color);
+  margin-bottom: 1.4rem;
+  
+}
+
+
+body.home {
+  background-image: url(./bg/mountains-universe-1.png) ;
+
+}
+body.universe {
+  background-image: url(./bg/mountains-universe02.png) ;
+
+}
+body.exploration {
+  background-image: url(./bg/mountains-universe-3.png) ;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+  height: 12.2rem;
+  gap: 3.2rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+
+
+}
+nav a {
+  font-weight: 400;
+  color: var(--navtxt-color);
+  font-size: 2.16667rem;
+  line-height: 2.2rem;
+  color: var(--btntxt-color);
+
+  cursor: pointer;
+
+
+}
+nav a:hover {
+  color: var(--btntxt-color);
+  font-weight: bold;
+
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  justify-content: space-around;
+}
+
+h1{
+  padding-top: 17.2rem;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;  
+  color: var(--h1-color);
+
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--p-color);
+  width: 64.8rem;
+  
+}
+button:hover  {
+  transition: 200ms;
+  border-color: white;
+  text-decoration: none;
+  background-color: white;
+}
+
+button {
+  margin-top: 2.4rem;
+  cursor: pointer;
+  border-color: white;
+  border: solid;
+  text-decoration: none;
+
+  padding: 1.2rem 3.2rem 1.2rem 3.2rem  ;
+  background: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+  color : var(--btntxt-color);
+  border-radius: 5px;
+
+
+}
+button a{
+  color : var(--btntxt-color);
+  
+}
+
+button:hover a{
+  color: var(--hover-color);
+
+}
